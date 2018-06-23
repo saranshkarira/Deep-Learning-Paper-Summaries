@@ -7,7 +7,7 @@ With an advent of deep neural network, comes a huge model size which makes it im
 
 Key Contributions:
 
-- First to "explicitly" mention the modular approach and it's benefits(Yes, Inception was the first modular architecture).
+- First paper to "explicitly" mention the modular approach and it's benefits(Yes, Inception was the first modular architecture).
 - Authors propose that instead of tinkering each and every layer of a network which could scale to more than hundreds of layers, it is better to only design a local module(CNN Microarchitecture) and stack this module on top of one another along with some ad-hoc layers to make the overall network(CNN macroarchitecture) deeper.
 - Design strategies :
 	- Strategy 1. Replace majority of 3x3 with 1x1 filters to reduce parameter size by 9x

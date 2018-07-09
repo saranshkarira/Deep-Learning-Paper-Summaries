@@ -17,7 +17,7 @@ This dense sliding window method beats the conventional object proposal methods 
 
 The paper is divided into three categories based on the three vision tasks namely, classification, localization and detection
 
-## Classification
+## Classification :
 
 The paper uses a network similar to Alexnet but with some improvements of their own, they've shown results on ILSVRC12 dataset i.e. 1.2 mill train pts and 1000 classes.
 During training, the model uses fixed size inputs similar to AlexNet but turns to Multi-scale during classification. Each image is downsampled so that smallest dimension is 256 pixels, then similar to Alexnet subsamples out 5 random crops and their flips. The weights are initialized with zero-mean gaussian of     std_dev = 0.01. They are updated by SGD with momentum of 0.6 and L2 wt decay of 1x10^-5. The learning rate is initially 5 x 10^-2  and is successively decreased by a factor of 0.5 after required epochs. Similarly, dropout rate of 0.5 is also employed on 6th and 7th FC layer.
@@ -50,7 +50,7 @@ trivial, architecturally being the parameter size.
 
 Note :  At test time the net can be easily scaled to accomodate any size of image as the convolution operations will simply slide over a bigger image while at the test time the fully connected layers will be replaced by convolution operations with kernels of 1x1 spatial extent with mere thresholding operations.
 
-## Localization: 
+## Localization : 
 
 For localization the classification layers are replaced by the regression layer and trained to predict bounding boxes at each spatial location and scale, regression predictions are then combined together to produce one bounding box per object with a very strong confidence. 
 

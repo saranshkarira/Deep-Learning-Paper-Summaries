@@ -2,8 +2,6 @@
 
 ## 2018
 
-- An Implementation of Faster RCNN for Region Sampling
-    -gg
 - YOLOv3: An Incremental Improvement [[Paper](https://arxiv.org/abs/1804.02767)][[Review](https://github.com/saranshkarira/ml-paper-reviews/blob/master/reviews/yolov3-an-incremental-improvement.md)]
     - Joseph Redmon, Ali Farhadi, arxiv, 2018
 
@@ -14,6 +12,8 @@
 
 - MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications [[Paper](https://arxiv.org/abs/1704.04861)][[Review](https://github.com/saranshkarira/ml-paper-reviews/blob/master/reviews/mobilenets-efficient-convolutional-neural-networks-for-mobile-vision-applications.md)]
     - Andrew G. Howard, Menglong Zhu, Bo Chen, Dmitry Kalenichenko, Weijun Wang, Tobias Weyand, Marco Andreetto, Hartwig Adam, arxiv, 2017 
+- An Implementation of Faster RCNN for Region Sampling [[Paper](https://arxiv.org/abs/1702.02138)]
+    - Xinlei Chen, Abhinav Gupta, arxiv, 2017
 
 ## 2016
 - YOLO9000: Better, Faster, Stronger [[Paper](https://arxiv.org/abs/1612.08242)][[Review](https://github.com/saranshkarira/ml-paper-reviews/blob/master/reviews/yolo-9000-better-faster-stronger.md)]

@@ -1,4 +1,4 @@
-# Summaries of papers on Deep Learning
+# Summaries of papers on Deep Learning/Computer Vision
 
 ## 2018
 

@@ -30,6 +30,8 @@
 
 ## 2015
 
+- Cyclical Learning Rates for Training Neural Networks [[Paper](https://arxiv.org/abs/1506.01186)][[Review](https://github.com/saranshkarira/Reviews/blob/master/reviews/cyclic-learning-rates-for-training-neural-networks.md)]
+    - Leslie N. Smith
 - You Only Look Once: Unified, Real-Time Object Detection [[Paper](http://arxiv.org/abs/1506.02640)][[Review](https://github.com/saranshkarira/ml-paper-reviews/blob/master/reviews/you-only-look-once-unified-real-time-object-detection.md)]
     - Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi, arxiv, 2015
 

@@ -66,4 +66,12 @@
 ## 2012
 - ImageNet Classification with Deep Convolutional Neural Networks [[Paper](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)][[Review](https://github.com/saranshkarira/ml-paper-reviews/blob/master/reviews/imagenet-classification-with-deep-convolutional-neural-networks.md)]
     - Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton, NIPS, 2012
+    
+    
+## To-Reads
+- [ ] DensePose: Dense Human Pose Estimation in the Wild
+- [ ] Building Machines That Learn and Think Like People
+- [ ] World Models
+- [ ] Wide Residual Networks
+- [ ] Residual Networks of Residual Networks: Multilevel Residual Networks
 
